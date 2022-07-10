@@ -1,0 +1,89 @@
+@import url(main.css);
+.guide {
+  color: black;
+  font-size: ;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+      url(images/recipe.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+/* all article area */
+.article-width{
+    width: 65%;
+    color: black;
+    display: block;
+    margin: auto;
+    padding: auto;
+    
+}
+h2{
+   color: #A4A400;
+   background-color: #F0F0F0;
+}
+.article-width h1{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color: #A4A400;
+}
+
+}
+.guide-list {
+  color: black;
+  text-align: left;
+  display: list-item;
+  list-style-type: style;
+  margin-left: 25px;
+  margin-right: 20px;
+  padding-top: 15px;
+}
+/* tool tip section */
+.hovertext {
+  position: relative;
+  border-bottom: 2px dotted: red;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 140px;
+  background-color: yellow;
+  color:black;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+/* comment section */
+.comments{
+    display: grid;
+    background-color: yellowgreen;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 40px;
+    width: 60%;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.comments-user{
+    font-weight: 400;
+    color: red;
+    font-style: italic;
+    padding: 5%;
+}
